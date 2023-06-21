@@ -1,0 +1,237 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+.containter-fluid
+{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar
+{
+    font-size: 25px;
+}
+
+
+.imagensolis
+{
+    background-image: url(img/image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    margin-bottom: 10 px;
+}
+
+
+.textosolis
+{
+    font-family: 'Recursive', sans-serif;
+    margin-left: 3%;
+}
+
+.fotomenu
+{
+    background-image: url(img/sorrentino2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.table
+{
+    text-align: center;
+}
+
+.fotoisla
+{
+    background-image: url(img/isla.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.textoisla
+{
+    font-family: 'Recursive', sans-serif;
+    margin-left: 3%;
+}
+
+.separador
+{
+    background-color: #A80025;
+    height: 5px;
+}
+
+.separador2
+{
+    background-color: #A80025;
+    height: 5px;
+    width: 98.5% !important;
+
+}
+
+h4
+{
+    font-family: 'Recursive', sans-serif;
+    color: #A80025 !important;
+    font-size: 30px !important;
+    margin-left: 20px;
+}
+
+.fotocontacto
+{
+    background-image: url(img/isla2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+
+}
+
+.contacto1
+{
+    margin-left: 20px;
+}
+
+.btn
+{
+    background-color: #A80025 !important;
+    color: white !important;
+}
+
+
+.footer
+{
+    background-color: #A80025;
+    margin-top: auto;
+    position: relative;
+    bottom: 0%;
+    height: 150px;
+    
+}
+
+.footerizq
+{
+    padding-top: 2%;
+    margin-left: 2%;
+    font-family: 'Recursive', sans-serif;
+    font-size: 25px;
+    color: white;
+    align-items: center;
+}
+
+.footerder
+{
+    padding-top: 2%;
+    text-align: right;
+    padding-right: none;
+    font-family: 'Recursive', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+@media only screen and (max-width: 550px)
+{
+    .carousel-item
+    {
+        height: 450px !important;
+    }
+
+    #ELSOLIS
+    {
+        height: 950px;
+    }
+
+    .imagensolis
+    {
+        width: 100%;
+        height: 200px;
+        margin-left: -1%;
+    }
+
+    .textosolis
+    {
+        font-size: small;
+        margin-left: -1%;
+    }
+
+    #MENU
+    {
+        height: 1260px;
+    }
+
+
+    .fotomenu
+    {
+        background-image: url(img/sorrentinomobile.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 400px;
+        margin-left: -1%;
+    }
+
+
+
+    #LAISLA
+    {
+        height: 940px;
+
+    }
+
+    .fotoisla
+    {
+        background-image: url(img/islamobile.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 240px !important;
+        margin-left: -1%;
+    }
+
+    .textoisla
+    {
+        font-size: small;
+        margin-left: -1% !important;
+    }
+
+    #RESERVAS
+    {
+        height: 950px;
+        margin-left: -10%;
+        margin-right: 5%;
+    }
+
+    .fotocontacto
+    {
+        background-image: url(img/fotocontactomobile.jpg);        
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200px !important;
+        width: 292px !important;
+        margin-left: 10%;
+
+    }
+
+    .footer
+    {
+        height: 210px;
+    }
+
+    .footerizq
+    {
+        text-align: center;
+        margin-left: -5% !important;
+        margin-top: 3% !important;
+        font-size: medium !important;
+    }
+    
+    .footerder
+    {
+        text-align: center;
+    }
+}
